@@ -7,5 +7,6 @@ urlpatterns = [
     path('apple_types/',views.apple_types,name='apple_types'),
     path('apple_colour/',views.apple_colour,name='apple_colour'),
     path('apple_grade/',views.apple_grade,name='apple_grade'),
+    path('apple_size/',views.apple_size,name='apple_grade'),
 
     ]
