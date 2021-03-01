@@ -5,4 +5,5 @@ urlpatterns= [
     path('varaities/', views.varaities, name='varaities'),
     path('juices_colour/',views.varaities_colour,name='juices_colour'),
     path('juices_types/',views.varaities_types,name='juices_types'),
+    path('juices_sizes/',views.varieties_sizes,name='juices_sizes'),
 ]
