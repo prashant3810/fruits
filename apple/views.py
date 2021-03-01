@@ -8,3 +8,6 @@ def apple_types(request):
     return HttpResponse("kashmir,telamgana,rayalaseema")
 def apple_colour(request):
     return HttpResponse("red,green,blue,orange")
+def apple_grade(request):
+    return HttpResponse("excellent good above avreage average bad")
+
